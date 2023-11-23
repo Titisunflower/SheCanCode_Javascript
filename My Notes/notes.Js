@@ -186,3 +186,4 @@ const text = hello;
 console.log(text);
 //ReferenceError: hello is not defined
 //It doesn't matter if you use single or double quotes or backticks.
+
