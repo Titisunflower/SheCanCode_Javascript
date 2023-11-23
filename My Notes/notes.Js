@@ -176,3 +176,13 @@ console.log(4 % 2);
 console.log(-4 % 2);
 // Expected output: -0
 
+//introduction to strings
+//We can use the typeof operator to find out the type of a value or variable. Try it out:
+console.log(typeof 1);
+const num = 1;
+console.log(typeof num);
+//Great! But what if we do not want to store a number but some text in a variable?
+const text = hello;
+console.log(text);
+//ReferenceError: hello is not defined
+//It doesn't matter if you use single or double quotes or backticks.
