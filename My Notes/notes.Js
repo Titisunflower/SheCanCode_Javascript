@@ -187,3 +187,7 @@ console.log(text);
 //ReferenceError: hello is not defined
 //It doesn't matter if you use single or double quotes or backticks.
 
+//The if-statement executes a block of code if a certain condition is true. It consists of the if keyword followed by a condition in parentheses, and a block of code in curly braces.
+if (Condition) {
+    Block of code
+   }
