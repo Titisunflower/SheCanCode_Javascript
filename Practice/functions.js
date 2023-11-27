@@ -27,9 +27,9 @@ function func() {
     return 5;
   }
    
-const result = func();
+const output = func();
  
-  console.log(result);
+  console.log(output);
 //expected value is 5
 
     function func() {
