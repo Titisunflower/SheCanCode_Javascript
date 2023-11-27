@@ -23,20 +23,18 @@ function logMessage() {
 
  // They are similar to each other
  
- function func() {
+function func() {
     return 5;
   }
    
-  const result = func();
-   
+const result = func();
+ 
   console.log(result);
-  //expected value is 5
+//expected value is 5
 
-  function func() {
+    function func() {
     const num = 5;
-  }
-   
-  const result = func();
-   
+}
+const result = func();
   console.log(result);
  //undefined  
