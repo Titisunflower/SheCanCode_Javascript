@@ -190,4 +190,27 @@ console.log(text);
 //The if-statement executes a block of code if a certain condition is true. It consists of the if keyword followed by a condition in parentheses, and a block of code in curly braces.
 if (Condition) {
     Block of code
-   }
+}
+
+//Here, we created a function named logMessage that simply logs the message Hello world!. Then, we called the function. Let's take a look at how this works.
+//To create a function, we write the keyword function, followed by the name of the function and a pair of parentheses. Then follows some JavaScript code enclosed in curly braces.
+function logMessage() {
+    console.log('Hello world!');
+}// this is called function declaration.
+//After we have declared a function, we can call it by using its name and a pair of parentheses:
+logMessage();
+//When you call a function, the code inside the function's body is executed (the part inside the curly braces).
+//But why all this, you may ask. One reason is that you can call a function as often as you want. Let's try it:
+
+//There's another way to create functions which is called function expression. Here, we create a function and assign it to the variable logMessage. Notice that we omit the name of the function after the function keyword.
+const logMessage = function(){
+    console.log("hello World");
+}
+//One more thing that you should know about functions is that they return values. You can return a value by using the return keyword.
+function func() {
+    return 5;
+  }
+   
+  const result = func();
+   
+  console.log(result);
